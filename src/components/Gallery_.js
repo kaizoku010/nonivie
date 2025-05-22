@@ -11,8 +11,6 @@ import NoScroll from '../components/NoScroll'
 import Lens from "../imgs/SVG/lens.svg"
 import Sections from './Sections'
 import { Gallery } from 'react-grid-gallery'
-import Lightbox from "react-image-lightbox"
-import "react-image-lightbox/style.css";
 import LightBoxGallery from './LightBoxGallery'
 
 
@@ -41,7 +39,7 @@ function Gallery_() {
     {/* Gallery Element */}
 
     <LightBoxGallery/>
-    
+
 
 
 </div>
@@ -64,7 +62,7 @@ function Gallery_() {
     <LightBoxGallery/>
 
 {/* <Sections/>             */}
-</div> 
+</div>
 {/* Mobile Footer */}
 <div className='mg-footer'>
     <FooterMobile />
@@ -73,7 +71,7 @@ function Gallery_() {
 </div>
 
         </div>
-    
+
     )
 }
 
