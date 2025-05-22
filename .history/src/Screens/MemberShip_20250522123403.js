@@ -14,6 +14,7 @@ function MemberShip() {
     <div style={{ backgroundColor: "black" }} className='memebership-page'>
       <video className='home-video' width="100%" height="100%"loop muted autoPlay>
         <source src={Opulance} type="video/mp4" />
+
       </video>
     </div>
   )
