@@ -1,0 +1,25 @@
+.mobile-view{
+    display: none;
+}
+
+
+/* load mobile code */
+@media(max-width:999px) {
+    .mobile-view{
+        display: block;
+    }
+
+
+    .reservations-holder{
+        display: none !important;
+    }
+
+
+    .res_ic{
+        margin-top: 130px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    form-control-mobile
+}

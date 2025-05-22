@@ -1,0 +1,11 @@
+@media(max-width:999px) {
+
+
+.nv-sect-mobile{
+        height: 100vh;
+    background-image: url("../imgs//mobile_bg.jpg");
+}
+
+.nv-sect-mobile-header{
+    width: 100%;
+}

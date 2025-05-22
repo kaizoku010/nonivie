@@ -1,0 +1,31 @@
+.kim-page{
+    display: flex;
+    background-image: url("../imgs/res-bg-mobile.jpg");
+    flex-direction: column;
+    height: 100vh;
+}
+
+.kimIc{
+    margin-top: 70px;
+    align-self: center;
+    width: 220px;
+}
+
+.kim-text{
+
+}
+
+.gani-btn{
+    margin-top: 50px;
+    align-self: center !important;
+    border-radius: 20px;
+    width: 164px;
+    margin-bottom: 49px;
+    padding: 12px;
+    border: 1px;
+    border-style: solid;
+    border-color: #d37765;
+    font-size: .8rem;
+    background-color: #fbd2c700;
+    color: white;
+}

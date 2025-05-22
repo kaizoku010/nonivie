@@ -1,0 +1,142 @@
+ 
+/* load desktop code */
+@media(min-width:999px){
+
+    .homepage-holder{
+        display: block !important;
+     
+    }
+     
+
+     .mobile-code{
+        display: none !important;
+        background-color: black;
+    }
+     
+}
+
+
+.homepage-holder {
+    background-color: black;
+    position: relative;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  /* overflow: hidden;  */
+} 
+ 
+ .slider-image {
+    width: 100%;
+        /* height: 666px; */
+        object-fit: cover;
+    }
+
+.alice-carousel__dots {
+    margin: 30px 3px 5px;
+    padding: 0;
+    list-style: none;
+    display: none !important;
+    text-align: center;
+}
+.alice-carousel__prev-btn {
+    text-align: right;
+    display: none !important;
+}
+.alice-carousel__next-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    display: none !important;
+    padding: 10px 5px;
+}
+
+.dixon-carousel{
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: black;
+    /* width: 100vw; */
+    bottom: 0;
+    position: relative;
+}
+
+.bottom-menu{
+    z-index: 8;
+    bottom: 0px;
+    border-top-style: solid;
+    border-top-color: #4f4409;
+    border-top-width: thin;
+    width: 100%;
+    position: absolute;
+}
+
+
+.new-park-slider{
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    padding: 30px;
+
+}
+
+.park-image{
+width: 30%;
+margin: 10px;
+border-radius: 7px;
+}
+
+
+.park-slider-content{
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.park-min-content{  
+    display: flex;
+    flex-direction: column;
+}
+
+.park-slider-heading > h3{
+    margin-top: 5px;
+    font-size: 1.7rem;
+}
+
+.font-width{
+/* width: 90%; */
+}
+
+
+.nv-span-text{
+    padding: 20px 0;
+    font-weight: 100;
+    margin-top: 20px;
+    /* border-bottom: 1px solid red;  */
+}
+
+
+.park-ui{
+    border-radius: 10px;
+    height: 40em;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-image: url("../imgs/hero2.JPG");
+}
+
+.park-holder{
+    padding: 20px;
+    background-color: black;
+}
+
+
+.smart-menu{
+    font-size: 2.5rem;
+    justify-content: space-between;
+}
+
+.smart-section{
+
+}

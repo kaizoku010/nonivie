@@ -1,0 +1,27 @@
+import React from 'react'
+import "./FoodMenu.css"
+import BottomMenu from "../components/BottomMenu"
+import OurDelights from "../imgs/menu/delights.png"
+import MenuItem from '../components/MenuItem'
+import Platter from "../imgs/menu/platter.png"
+import PlatterTitle 
+
+
+function FoodMenu() {
+  return (
+    <div className='menu_holder'>
+<div className='food_header'>
+    <BottomMenu/>
+</div>
+<div className='food-header'>
+        <img src={OurDelights}/>
+</div>
+    <div className='menu_items'>
+        <MenuItem/>
+    </div>
+
+        </div>
+  )
+}
+
+export default FoodMenu

@@ -1,0 +1,11 @@
+.nv-btn{
+    /* background-color: rgb(6, 6, 6); */
+    background-color: white;
+
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: center;
+    width: 150px;
+    padding: 15px;
+    color: white !important;
+}

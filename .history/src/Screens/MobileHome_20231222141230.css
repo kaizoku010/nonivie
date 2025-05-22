@@ -1,0 +1,370 @@
+.about-btn{
+  margin-top: 1rem !important;
+  background-color:#782317;
+  color: white;
+  font-size: 15px;
+    align-self: center;
+    width: 150px;
+    border-color: transparent !important;
+    padding: 15px;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+
+  display: none;
+  margin: 80px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.roundMe{
+  border-radius: 10px;
+}
+
+.op-title-bottom{
+    align-self: flex-start;
+    margin-left: 1rem;
+    display: flex;
+    margin-bottom: 3rem;
+    width: 13rem;
+}
+
+
+
+
+
+.op-title{
+  margin-top: 30%;
+    align-self: flex-start;
+  margin-left: 1rem;
+  display: flex;
+  width: 16rem;
+}
+
+
+.kim-div{
+  /* background-image: url("../imgs/mobile_bg.jpg"); */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+.kim-btn{
+  border-radius: 20px;
+  width: 164px;
+  margin-bottom: 49px;
+  padding: 12px;
+  border: 1px;
+  border-style: solid;
+  border-color: #d37765;
+  font-size: .8rem;
+  background-color: #fbd2c700;
+  color: white;
+}
+
+.kim-btn:hover{
+  background-color: #782317;
+  color: wheat;
+}
+
+.kim-image{
+/* width: 50%; */
+margin: 2em;
+}
+
+/* load mobile code */
+@media(max-width:999px) {
+
+.food-slider-holder{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -27px;
+}
+
+
+.delights-home-title{
+  margin: 35px;
+  width: 80%;
+}
+
+  .mobile-holder{
+    /* background-image: url("../imgs//res-bg-mobile.jpg");  */
+    width: 100%;
+    background-position: right;
+    height: 100vh;
+    
+    background-attachment: fixed;
+    }
+
+  p{
+    color: white;
+  }
+  
+  .mobile-container {
+    /* background-image: url("../imgs//res-bg.jpg"); */
+    width: 100%;
+    background-image: url("../imgs/venue.jpg");
+    background-position: right;
+    height: 100vh;
+
+  }
+  .video {
+    width: 100%;
+    position: relative;
+    transition: 2s;
+    left: 0px;
+    top: 0px;
+    z-index: -10;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .hero-title-one{
+
+  font-size: 3rem !important;
+} 
+
+.hero-title-two{
+  font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif !important;
+  margin-top: -1rem !important;
+  font-size: 3rem !important;
+}
+
+  .fullscreen-video {
+    /* align-items: center; */
+    display: flex;
+    margin-bottom: -5px;
+    background-position: top;
+    /* justify-content: center; */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imgs/venue.jpg");
+    height: 700px;
+    flex-direction: column;
+  }
+
+
+  .bree{
+    margin-top: -0px !important;
+  }
+
+  .hero-element {
+    color: white;
+    background-color: black;
+    /* position: relative; */
+  }
+
+  .video-content {
+    display: flex;
+    width: 100%;
+    height: 87%;
+    position: absolute;
+    background-image: url("../imgs/vidBg.svg");
+    color: white;
+    z-index: 99999;
+    flex-direction: column;
+}
+
+  .video-title{
+    display: none;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    }
+
+    .video-desc {
+      display: none;
+      /* width: 15em; */
+      font-weight: 300;
+      /* font-size: 20px; */
+      }
+
+.carly{
+  width: 80%;
+  margin-bottom: 6%;
+  margin-top: 17%;
+}
+
+.about-text-home{
+  margin-top: 20px;
+  text-align: -webkit-center !important;
+  text-align: center !important;
+  text-align: -moz-center;
+  /* flex-direction: column; */
+  display: flex;
+  place-content: center;
+}
+
+.about-text-mobile{
+  color: #FBD2C7;
+  /* text-align: justify !important; */
+  width: 323px;
+  margin-bottom: 14px;
+  font-size: .8rem;
+}
+
+.reColor{
+  background-color: #d37765 !important;
+}
+
+.reColor:hover{
+  background-color: #FBD2C7;
+  font-weight: bold;
+}
+
+
+
+.home-img-about{
+  margin-top: 60px;
+  width: 80%;
+  /* padding-bottom: 40px; */
+}
+
+.home-img-food{
+  width: 80%;
+}
+
+.zindex{
+  position: relative;
+  left: 0px;
+  width: 50%;
+}
+
+.food-div{
+  margin-left: 14;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+}
+
+.carousel .carousel-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10PX;
+  margin-right: 17px !important;
+  padding: 5px;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+  color: #fff;
+}
+
+
+.food-holder{
+  margin-top: 20px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 400px;
+  background-image: url("../imgs/homepage_food.png");
+}
+
+
+.mobile-img-section{
+  background-color: transparent;
+}
+
+.mobile-bg-start{
+  /* background-image: url("../imgs/res-bg.jpg"); */
+  background-position: right;
+  background-color: black;
+  /* height: 100vh; */
+  /* margin-top: -10px; */
+  /* background-attachment: fixed; */
+ 
+}
+
+.mobile-pattern{
+  width: 80%;
+}
+
+.join-us{
+  background-color: black;
+  text-align: -webkit-center;
+  text-align: center;
+  display: flex;
+  margin-top: -10px;
+  flex-direction: column;
+  place-items: center;
+  /* margin-bottom: 20px; */
+  text-align: -moz-center;
+}
+
+
+.grnd-mobile{
+position: absolute;
+display: flex;
+height: 100vh;
+width: 100%;
+/* background-color: green; */
+align-items: flex-start;
+/* align-items: center; */
+/* padding-top: 30%; */
+flex-direction: column;
+}
+
+
+.mobile-crystals{
+  bottom: 0;
+}
+
+.opu-mobile{
+width: 40%;
+}
+
+.line-mobile{
+  margin-top: 10px;
+  width: 40%;
+
+}
+
+.grand-mobile{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 80%;
+
+}
+
+.lux-mobile{
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

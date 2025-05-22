@@ -1,0 +1,32 @@
+.food-slider{
+    width: 100%;
+    margin-bottom: 50px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.food-section {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 20px; */
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.food-section > img{
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+    width: 100% !important;
+}
+
+
+.carousel .slide img {
+    /* width: 89% !important; */
+    vertical-align: top;
+    border: 0;
+}
+
+

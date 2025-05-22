@@ -1,0 +1,155 @@
+@media(max-width:999px) {
+    .content-mobile-about-us{
+        background-image: url("../imgs/res-bg-mobile.jpg");
+   display: block !important;
+   width: 100%;
+   height: 100%;
+   
+    }    
+
+
+    .test-div{
+        width: 100%;
+    }
+
+    .kim-left-mobile {
+        /* background-color: white; */
+        /* width: 500px; */
+        /* text-align: left; */
+        place-self: center;
+    }
+
+    .lux-title-mobile {
+        /* text-align: left; */
+        margin-bottom: 10px;
+    }
+    
+    .mobile-menu-about{
+    
+    }
+
+    .about-mobile-lower{
+        background-image: url("../imgs/res-bg-mobile.jpg");
+        height: 100%;
+
+    }
+
+    .mobile-middle-child {
+        text-align: center;
+        align-self: center;
+        margin: 80px;
+    }
+
+    .footerAbout{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+    }
+
+    .mobile-about-ic{
+        width: 265px;
+        margin-top: 150px;
+    }
+    .swek{
+        margin-bottom: 60px;
+        margin-top: -3px !important;
+
+    }
+
+
+    .mobile-style-me{
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-attachment: fixed;
+        color: white;
+        flex-wrap: wrap;
+        /* padding: 20px; */
+        text-align-last: left;
+        place-content: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../imgs/cigers-2.jpg');
+    }
+    
+    .mobile-ciger-heading{
+        font-size: 3rem;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 287px;
+        line-height: 0.9;
+    }
+    .mobile-ciger-text{
+        text-align: left;
+        margin-left: 20px;
+
+
+    }
+
+    .about-mobile-btn{
+        margin-left: 20px;
+
+        margin-top: 20px;
+        background-color: white !important;
+        padding: 15px;
+        align-items: center;
+        border-radius: 30px;
+        width: 149px;
+        font-size: 21px;
+      }
+    .first-child{
+        /* margin-top: 100px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+.about-mobile{
+    display: none;
+}
+
+/* 
+.mobile-about-mobile{
+    display: none;
+} */
+
+

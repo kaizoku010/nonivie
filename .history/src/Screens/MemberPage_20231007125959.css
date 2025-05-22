@@ -1,0 +1,27 @@
+.header-footer{
+    grid-area: footer;
+    bottom: 0;
+
+}
+
+.sasula {
+display: flex;
+flex-direction: column;
+ grid-template-areas:
+"header header header header header header"
+"content content content content content content"
+"footer footer footer footer footer footer";
+background-image: url('../imgs/res-bg.jpg');
+}
+
+.header-about-us{
+    grid-area: header;
+    }
+    
+    .content-about-us{
+        grid-area: content;
+        height: 100vh;
+    
+    }
+    
+    

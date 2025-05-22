@@ -1,0 +1,12 @@
+.memebership-page{
+    height: 100vh;
+}
+
+.slide-1{
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/abby.jpg");
+    object-fit: contain !important;
+}

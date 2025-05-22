@@ -1,0 +1,44 @@
+.mobile-view{
+    display: none;
+}
+
+.mobile-about-mobile-lower{
+    background-image: url("../imgs/res-bg-mobile.jpg");
+    background-size: contain;
+}
+
+
+/* load mobile code */
+@media(max-width:999px) {
+    .mobile-view{
+        display: block;
+    }
+
+
+    .reservations-holder{
+        display: none !important;
+    }
+
+
+    .res_ic{
+        margin-top: 130px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .form-control-mobile{
+        border-radius: 10px !important;
+        height: 46px;
+    }
+
+    .kim-label{
+        color: white;
+        display: flex;
+        margin-bottom: 0;
+        background-color: transparent !important;
+        text-align: -webkit-left;
+        width: 320px;
+        margin-top: 10px 0px;
+        flex-direction: column;
+    }
+}

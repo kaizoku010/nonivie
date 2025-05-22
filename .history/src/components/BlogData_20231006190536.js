@@ -1,0 +1,17 @@
+const postData = [
+    // Sample blog post data
+    {
+      id: 1,
+      title: 'Post 1',
+      image: 'image1.jpg',
+      excerpt: 'This is the excerpt of post 1.',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabor met dolore magna sens aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labori nisi ut aliquip ex ea commodo consequat. Duis auteirm ure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupin datat non proident tusunt. Mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant tium doloremque laudan tiumotam rem aperiam aq ue ipsa quae ab illo inventore veritatis etquai sarchitecto beatae vitae dicta sunt expli cabos Nemoenim ipsam voluptatem quia voluptas sitasper.',
+    },
+    {
+      id: 2,
+      title: 'Post 2',
+      image: 'image2.jpg',
+      excerpt: 'This is the excerpt of post 2.',
+      content: 'Content of post 2...',
+    },
+  ];

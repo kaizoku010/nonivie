@@ -1,0 +1,14 @@
+.menu_item_holder{
+    background-color: blue;
+        height: 382px;
+        width: 100%;
+        display: flex;
+}
+
+.menu_item_right{
+    background-color: aqua;
+}
+
+.menu_item_le{
+
+}

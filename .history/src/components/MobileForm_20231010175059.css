@@ -1,0 +1,43 @@
+@media(max-width:999px) {
+.mobile-form-holder{
+    background-color: black;
+    margin-top: -24px;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.form-group {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+input{
+    margin: 20px 0px !important;
+    padding: 20px !important;
+    color-scheme: dark;
+}
+
+.footer_icon{
+    width: 96px;
+}
+
+
+
+}
+
+label{
+    color: white;
+    display: flex;
+}
+
+ select{
+background: #091315;
+width: 146%;
+color: white;
+padding: 20px;
+border: 1px solid #c9ab81 !important; 
+}
+
+
+selec

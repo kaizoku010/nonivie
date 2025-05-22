@@ -1,0 +1,40 @@
+.grand-bg{
+    background-image: url("../imgs/kim/bg.jpg");
+    background-size: contain;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+
+}
+
+.crystals{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 78%;
+}
+.op-line{
+    margin-top: 40px;
+    display: flex;
+    width: ;
+    flex-direction: column;
+}
+
+.opulent-text{
+    /* height: 20px;
+    width: 10%; */
+}
+
+.line{
+    /* width: 10%;
+    height: 10px; */
+
+}
+
+.grand-title{
+
+}
+
+
+

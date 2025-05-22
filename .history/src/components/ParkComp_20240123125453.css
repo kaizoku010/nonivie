@@ -1,0 +1,30 @@
+.park-holder {}
+
+.upper-park-element {
+    margin-bottom: 15rem;
+}
+
+@media (min-width:650px) {
+    .upper-park-element {
+        margin-bottom: 20rem;
+        display: flex;
+        grid-column-gap: 1.7rem;
+        grid-template-columns: repeat(12,minmax(0,1fr));
+    }
+    .park-heading{
+        font-size: 5.9rem;
+        background-color: red;
+    }
+
+
+}
+
+
+.park-ic{
+width: 300px;
+}
+
+
+.park-heading{
+    font-size: 3.7rem;
+}

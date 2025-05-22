@@ -1,0 +1,27 @@
+.menu_item_holder{
+        height: fit-content;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+}
+
+.menu_item_right{
+       display: flex;
+       flex-direction: column;
+       width: 382px;
+       justify-content: center;
+       align-items: center;
+}
+
+.menu_item_left{
+    width: 30%;
+}
+
+.food-title{
+    width: 40%;
+    height: 20%;
+}
+
+.food-desc{
+    width: 50%;
+}

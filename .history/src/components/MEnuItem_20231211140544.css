@@ -1,0 +1,18 @@
+.menu_item_holder{
+    background-color: blue;
+        height: 382px;
+        width: 80%;
+        display: flex;
+}
+
+.menu_item_right{
+    height: 382px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.menu_item_left{
+    height: 382px;
+    width: 100%;
+background-color: azure;
+}

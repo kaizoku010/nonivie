@@ -1,0 +1,50 @@
+.radio-holder-container{
+    display: block;
+    /* position: relative; */
+    /* padding-left: 35px; */
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    /* font-size: 22px; */
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+}
+
+.radio-holder .radio{
+    /* position: absolute; */
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+
+/* $text-color: mix(#000, $primary-color, 64%); */
+/*  */
+
+/* .kim {
+	font-family: "messina", sans-serif;
+    color: rgba(#000, 0, 64%);
+    	font-size: calc(1em + 1.25vw);
+	background-color: mix(#fff, red, 90%);
+} */
+
+
+
+
+
+
+.radio-holder {
+	position: absolute;
+	top: 0;
+	left: 0;
+    
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}

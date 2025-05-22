@@ -1,0 +1,22 @@
+.menu_item_holder{
+        height: fit-content;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+}
+
+.menu_item_right{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.menu_item_left{
+    width: 30%;
+background-color: azure;
+}
+
+.food-title{
+    width: 20%;
+    height: 20%;
+}

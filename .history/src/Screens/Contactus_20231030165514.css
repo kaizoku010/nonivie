@@ -1,0 +1,136 @@
+@media(max-width:999px) {
+
+    .mobile-contact-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    
+    .top-right{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        height: 500px;
+        background-color: #86270D;
+    }
+
+    .bottom-right{
+        display: flex;
+        margin: 20px;
+        height: 500px;
+        background-color: #FBD2C7;
+    }
+    
+    .largeView{
+    display: none;}
+
+}
+
+/* .mobile-contact-content {
+    display: flex;
+    margin: 50px;
+} */
+
+
+.mobile-dx{
+    background-image: url("../imgs/mobile_bg.jpg") ;
+}
+
+.mobile-member{
+    display: none;
+}
+
+.hidemenu{
+    display: none !important;
+}
+
+.contact-us-mobile{
+    display: none;
+}
+
+
+.contact-us{
+    background-image: url("../imgs/res-bg.jpg");
+    color: white;
+    top: 0;
+    position: absolute;
+}
+
+.contact-holder{
+    display: flex;
+    width: 100%;
+
+    height: 100vh;
+    
+}
+
+.contact-left{
+    background-color: rgb(9 19 21);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contact-us-heading{
+    text-align-last: left;
+    font-size: 35px;
+    width: 238px;
+    margin-bottom: 10px;
+}
+
+.flex-me{
+    width: 400px;
+    text-align: -moz-left;
+    text-align: -webkit-left;
+}
+
+.contact-right{
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+    place-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.contact-us-form{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+
+.contact-us-btn{
+    background-color: #86270d;
+    color: white;
+    border-color: transparent !important;
+}
+
+
+.email-ic-section{
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.email-ic{
+    width: 43px;
+    margin-right: 20px;
+}
+
+
+.email-extra-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-extra-text{
+    color: #86270d;
+}

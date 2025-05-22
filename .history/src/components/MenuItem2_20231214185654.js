@@ -1,0 +1,24 @@
+import React from 'react'
+import "./MenuItem2.css"
+
+
+function MenuItem2(props) {
+  return (
+    <div className='menu_item_holder2'>
+    <div className='menu_item_left2'>
+     <img className='food-title2' src={props.title}/>
+    <p className='food-desc'>{props.desc}</p>     
+    </div>
+    <div className='menu_item_right2 biggerMe'>
+    <img className='meal-image2' src={props.meal}/>
+
+    </div>
+
+
+</div>
+)
+}
+
+export default MenuItem2
+
+// 207 x 262

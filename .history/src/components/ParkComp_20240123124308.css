@@ -1,0 +1,21 @@
+.park-holder {}
+
+.upper-park-element {
+    margin-bottom: 15rem;
+}
+
+@media (min-width:650px) {
+    .upper-park-element {
+        margin-bottom: 20rem;
+        display: flex;
+    }
+
+}
+
+
+.park-ic{
+
+}
+
+
+.park

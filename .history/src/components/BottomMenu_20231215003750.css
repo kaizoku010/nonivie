@@ -1,0 +1,118 @@
+
+.hoverMe:hover{
+  color: red !important;
+}
+
+.menu-holder{
+  display: flex;
+ /* width: 100%;  */
+  color: white;
+  justify-content: space-between;
+  position: relative;
+  background-color: #000000c9;
+  padding: 30px; 
+}
+
+.menu-logo-pattern{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+
+.right-options{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.header-link{
+    margin: 0px 20px 0px 20px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 13px !important;
+    display: inline-block;
+    padding: 5px 5px;
+    position: relative;
+}
+
+
+.header-link:hover{
+   cursor: pointer;
+   color: #df9b92;
+  }
+
+.header-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #8f2e21;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .header-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .phone-number{
+    font-size:16px !important;
+  }
+
+.social-links{
+    height: 17px !important;
+  }  
+
+  .ic-holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    align-items: center;
+  }
+
+  .ic-holder:hover{
+    cursor: pointer;
+    filter: hue-rotate(180deg);
+    /* color: red; */
+  }
+
+  .header-ic:hover{
+    cursor: pointer;
+    filter: sepia(100%);
+    filter: hue-rotate(180deg);
+
+    -webkit-filter: sepia(100%);
+  }
+
+  .header-ic{
+    height: 35px;
+    padding: 5px 5px;
+    display: block;
+    
+
+    display: block;
+    height: 35px;
+    padding: 7px;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.social-links:hover{
+    filter: hue-rotate(180deg);
+    filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+        
+}
+
+.dom-links{
+    text-decoration: none !important;
+}

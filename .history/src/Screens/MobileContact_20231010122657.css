@@ -1,0 +1,20 @@
+@media(max-width:999px) {
+
+    .mobile-contact-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .top-right{
+        display: flex;
+        flex-direction: column;
+        ma
+    }
+
+}
+
+.mobile-contact-content {
+    display: flex;
+    margin: 50px;
+}

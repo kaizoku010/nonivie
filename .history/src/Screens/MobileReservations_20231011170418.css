@@ -1,0 +1,10 @@
+.mobile-view{
+    display: none;
+}
+
+
+/* load mobile code */
+
+
+@media(max-width:999px) {
+}

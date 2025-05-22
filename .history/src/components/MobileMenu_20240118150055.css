@@ -1,0 +1,225 @@
+/* load mobile code */
+/* .mobile-menu-holder{
+  display: none !important;
+} */
+
+
+@media(max-width:999px) {
+
+  .homepage-holder {
+    display: none !important;
+  }
+
+  .carol-bitch{
+    width: 35px;
+    
+  }
+
+  .carol-bitch:hover{
+    cursor: pointer;
+  }
+
+  .big-kim{}
+
+  .kim-backgrounds{
+    background-size: contain;
+    /* background-image: url("../imgs//res-bg-mobile.jpg"); */
+  }
+
+  .floating-kim{
+    top: 0;
+    margin: 50px;
+    right: 0;
+    position: absolute;
+  
+  }
+
+  .mobile-menu-holder {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  header {
+    z-index: 9999999999999999999999;
+    position: relative;
+    background-color: #26262600;
+  }
+
+  /* need a solution for the next 2 properties */
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-bar {    /* min-height: 4.375em; */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    transition: 1.8s;
+    background-color: #00000000;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 30px 0px;
+    
+    
+  }
+
+  .nav-branding {
+    width: 45px;
+    margin-left: 7px !important;
+    /* margin-left: 10px; */
+    transition: color 500ms ease;
+  }
+
+  .nav-branding:hover,
+  .nav-branding:focus {
+    color: dodgerblue;
+  }
+
+  body.blur header:after {
+    content: "";
+    position: fixed;
+    z-index: 111;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-menu {
+    position: fixed;
+    height: 100%;
+    left: -120%;
+    top: 0;
+    /* background-color: red; */
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("../imgs//res-bg-mobile.jpg");
+background-repeat: no-repeat;
+        width: 100%;
+    text-align: left;
+    transition: 750ms;
+    
+  }
+
+  .nav-menu.active {
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+  }
+
+  .nav-item {
+    margin: .2em 0;
+    text
+  }
+
+
+  .salmonColor{
+    color: #f5cdc3 !important;
+  }
+
+
+  .nav-link {
+    transition: 400ms ease;
+    font-weight: 900;
+    transition: 2s ease-out;
+    font-size: 1.5rem;
+    color: #f5cdc3 !important;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: dodgerblue;
+
+  }
+
+  .hamburger {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+
+  .bar {
+    display: block;
+    background-color: salmon;
+    width: 24px;
+    /* The following 2 properties are essential in creating the "X" when the hamburger is clicked. If you change just 1 of the 2, then you need to find the proper combination for the other one */
+    height: 2px;
+    margin: 6px auto;
+
+    /*    -webkit-transition: all 300ms ease;  */
+    transition: all 300ms ease-in-out;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  @media (min-width: 999px) {
+
+    .nav-menu {
+      position: static;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1em;
+      width: 49px;
+      width: auto;
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+
+
+  /* Add this to your CSS file */
+  .hamburger-bar {
+    background-color: #000;
+    /* Adjust the color as needed */
+    height: 3px;
+    width: 25px;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger-bar.active {
+    transform: rotate(45deg);
+  }
+
+  .hamburger-bar.active:before {
+    transform: translateY(-8px) rotate(90deg);
+  }
+
+  .hamburger-bar.active:after {
+    transform: translateY(8px) rotate(-90deg);
+  }
+
+  .active{
+    margin-right: 50px;
+    /* transition: 2s ease-in; */
+  }
+
+}

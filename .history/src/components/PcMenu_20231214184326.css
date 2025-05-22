@@ -1,0 +1,22 @@
+.pc-menu-holder{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.pc-menu-image{
+    background-color: aqua;
+    width: 407px;
+    height: 407px;
+}
+
+.pc-menu-text{
+    background-color:blueviolet;
+    width: 407px;
+    height: 407px;
+}
+
+.meal-image-pc-view{
+    width: 307px;
+    height: 407px;
+}

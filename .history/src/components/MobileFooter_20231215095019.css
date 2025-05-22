@@ -1,0 +1,132 @@
+@media(max-width:999px) {
+
+    .mobile-footer > p{
+        color:#FBD2C7
+    }
+    .mobile-footer{
+        bottom: 0;
+        position: relative;
+     z-index: -5;
+        width: 100%;
+        background-color: #091315 !important;
+         /* padding: 13px; */
+    }
+    
+    .lower-footer-one{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .weightMe{
+        font-weight: 200 !important;
+    }
+
+.top-mobile-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #091315;
+    position: relative;
+    justify-content: space-around;
+    position: relative;
+}
+
+.mobile-footer-section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mobile-footer-header {
+    display: flex;
+    font-size: .9rem;
+    font-weight: 400;
+    position: relative;
+    color: white;
+    margin: 5px;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+    flex-wrap: wrap;
+}
+
+.mobile-footer-content {
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    font-weight: 300;
+    text-align: left;
+    flex-wrap: wrap;
+    /* width: 300px; */
+}
+
+.mobile-footer-section-two {
+    display: flex;
+    position: relative;
+    align-self: center;
+    text-align: -webkit-left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mobile-footer-links {
+    margin: 5px;
+}
+
+.mobile-footer-input{
+    width: 300px;
+    border-radius: 20px !important;
+    margin: 10px 10px 10px 6px !important;
+
+}
+
+.mobile-footer-links:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.mobile-footer-section-tatu {
+    display: flex;
+    position: relative;
+    margin: 5px;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mobile-footer-links-tatu {
+    margin: 5px;
+
+}
+
+.mobile-footer-links-tatu:hover {
+    cursor: pointer;
+    color: black;
+
+}
+
+.lower-mobile-footer{
+    border-top-color: white;
+    /* display: flex; */
+    /* background-color: rgb(57 16 10 / 41%); */
+    padding: 30px;
+    /* margin: 20px; */
+    align-self: center;
+    /* background-color: #091315; */
+    flex-wrap: wrap;
+    place-content: center;
+    /* position: relative; */
+    border-width: 1px 0px 0px 0px;
+    border-style: inset solid double dotted;
+    /* width: 400px; */
+
+}
+
+.footer_grid{
+    background-color: #091315;
+}
+
+}

@@ -1,0 +1,13 @@
+@media(max-width:999px) {
+.mobile-form-holder{
+    background-color: black;
+    margin-top: -24px;
+    padding-top: 30px;
+}
+
+.form-group {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+}

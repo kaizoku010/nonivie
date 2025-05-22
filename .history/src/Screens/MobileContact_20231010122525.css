@@ -1,0 +1,9 @@
+@media(max-width:999px) {
+
+.mobile-contact-content{
+display: flex;
+flex-direction: column;
+}
+
+}
+

@@ -1,0 +1,47 @@
+@media (max-width: 999px){
+.christmas-banner {
+    background-image: url("../imgs/nonivie-lounge-5.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    position: relative;
+    place-content: center;
+    margin-bottom: -5px;
+}
+
+.emma{
+    margin-top: 6px !important;
+    transition: 1.8s;
+}
+
+.nonivie-christamas{
+    width: 300px;
+    display: none !important;
+    place-self: center;
+}
+
+.hero-title{
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.colorMe{
+    background-color: salmon;
+    color: black;
+    align-self: center;
+    font-weight: 500;
+}
+
+.our-chefs{
+    width: 60%;
+    align-self: center;
+}
+
+
+}

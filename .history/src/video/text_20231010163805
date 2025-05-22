@@ -1,0 +1,37 @@
+// import React, { useState } from 'react';
+
+// const VideoComponent = () => {
+//   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
+//   const handleVideoLoad = () => {
+//     setIsVideoLoaded(true);
+//   };
+
+//   return (
+//     <div>
+//       {isVideoLoaded ? (
+//         <video
+//           src="path_to_your_video.mp4"
+//           controls
+//           onLoadedData={handleVideoLoad}
+//         />
+//       ) : (
+//         <div className="loading-screen">
+//           <p>Loading video...</p>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default VideoComponent;
+
+
+// .loading-screen {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+//   background-color: #f0f0f0;
+// }
+

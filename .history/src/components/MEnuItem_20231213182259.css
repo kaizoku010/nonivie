@@ -1,0 +1,135 @@
+@media (max-width: 999px) {
+    .menu_item_holder {
+        height: -moz-fit-content;
+        height: fit-content;
+        /* place-content: space-between; */
+        width: 100% !important;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .menu_item_holder2 {
+        height: -moz-fit-content;
+        height: fit-content;
+        /* place-content: space-between; */
+        width: 100% !important;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .meal-image{
+        width: 200px !important;
+    }
+
+    .menu_item_right {
+        /* background-color: rgb(9 19 21); */
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_item_left2{
+        height: fit-content;
+    }
+
+
+    
+    .menu_item_right2 {
+        /* background-color: rgb(9 19 21); */
+        display: flex;
+        flex: 50%;
+        flex-direction: column;
+        width: 200px;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .biggerMe{
+            /* background-color: rgb(9 19 21); */
+            display: flex;
+            flex-direction: column;
+            width: 100% !important;
+            justify-content: center;
+            align-items: center;
+        
+    
+    }
+
+
+    .properHolder{
+        width: 100% !important;
+    }
+
+
+
+    .menu_item_left {
+        place-content: center;
+        align-self: center;
+        width: 100% !important;
+    }
+
+    .meal_right {
+        width: 100%;
+    }
+
+
+
+    .food-desc {
+        font-size: 7.6px;
+        width: 80% !important;
+    }
+
+
+    .food-title {
+        /* width: 47% !important; */
+        height: 24% !important;
+    }
+}
+
+
+
+.menu_item_holder {
+    height: fit-content;
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu_item_right {
+    /* background-color: rgb(9 19 21); */
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_item_left {
+    width: 25%;
+    display: flex;
+}
+
+.food-title {
+ /* width: 40%; */
+    height: 20%;
+}
+
+.food-desc {
+    width: 50%;
+
+}
+
+.meal-image{
+    width: 100%;
+}
+
+
+.meal_right {
+    width: 100%;
+}

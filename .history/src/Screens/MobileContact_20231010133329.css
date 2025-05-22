@@ -1,0 +1,40 @@
+@media(max-width:999px) {
+
+    .mobile-contact-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .top-right{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .bottom-right{
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .mg-top{
+        margin-top: 20px;
+        font-size: 2.5em;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact > p{
+        color: red;
+    }
+
+}
+
+.mobile-contact-content {
+    display: flex;
+    /* margin: 50px; */
+}
+

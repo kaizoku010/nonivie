@@ -1,0 +1,30 @@
+.dx-button-new{
+    border-radius: 40px !important;
+    background-color: aliceblue;
+    color: rgb(21, 20, 20);
+    font-family: messina !important;
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hero_ic{
+    width: 46px;
+}
+
+.dx-button-new > p{
+    font-weight: 500 !important;
+    margin-left: 20px;
+    opacity: 100 !important;
+    color:black !important;
+}
+
+.dx-button-new:hover{
+    cursor: pointer;
+    font-weight: ;
+    color: white;
+    background-color: #ef9ebf;
+}

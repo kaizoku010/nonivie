@@ -1,0 +1,25 @@
+.faqs{
+background-image: url("../imgs/res-bg.jpg");
+height: 100vh;
+color: white;
+}
+
+.faq-answer{
+
+}
+
+.faq-question{
+font-weight: 300;
+}
+
+.active-faq{
+
+}
+
+.faqs-list{
+
+}
+
+.faq-item{
+    
+}

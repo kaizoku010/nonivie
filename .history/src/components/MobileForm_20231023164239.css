@@ -1,0 +1,53 @@
+@media(max-width:999px) {
+.mobile-form-holder{
+    margin-bottom: 1px;
+    height: 100%;    
+}
+
+.mar{
+    margin-top: 15px !important;
+}
+
+.form-group {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+input{
+    margin: 9px 0px !important;
+    padding: 20px !important;
+    color-scheme: dark;
+}
+
+.footer_icon{
+    width: 162px;
+    margin-top: 30px !important;
+    margin-left: 18px !important;
+}
+
+/* .select-option{
+
+} */
+
+}
+
+label{
+    color: white;
+    display: flex;
+    width: 320px;
+    margin-top:10px 0px;
+    /* background-color: #091315; */
+    flex-direction: column;
+}
+
+select{
+background: #091315;
+width: 100%;
+color: white;
+padding: 30px;
+border: 1px solid #864c41 !important; 
+}
+
+
+/* .select-option{} */

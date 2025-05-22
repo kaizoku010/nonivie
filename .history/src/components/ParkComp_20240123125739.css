@@ -1,0 +1,31 @@
+.park-holder {}
+
+.upper-park-element {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15rem;
+}
+
+@media (min-width:650px) {
+    .upper-park-element {
+        margin-bottom: 20rem;
+        display: flex;
+        
+    }
+    .park-heading{
+        text-align: left;
+        font-size: 5.9rem;
+    }
+
+
+}
+
+
+.park-ic{
+width: 400px;
+}
+
+
+.park-heading{
+    font-size: 3.7rem;
+}

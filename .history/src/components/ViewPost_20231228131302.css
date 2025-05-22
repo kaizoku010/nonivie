@@ -1,0 +1,21 @@
+@media (max-width: 999px){
+    .single-post-page{
+        background-color: black;
+        height: 100vh;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+    
+}
+
+
+.single-post-page{
+    background-color: black;
+}
+
+
+.mobile-menu{
+    display: none;
+}

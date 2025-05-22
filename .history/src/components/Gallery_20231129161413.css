@@ -1,0 +1,128 @@
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css');
+@media(max-width:999px) {
+    @import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+    @import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+    @import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css');
+   
+   
+    .lg-next, .lg-prev {
+        background-color: rgba(0, 0, 0, 0.45);
+        border-radius: 2px;
+        color: #999;
+        width: 50px;
+        cursor: pointer;
+        display: block;
+        font-size: 20px;
+        margin-top: -10px;
+        padding: 8px 10px 9px;
+        position: absolute;
+        top: 50%;
+        z-index: 1080;
+        outline: none;
+        border: none;
+    }
+   
+    .pc-gallery{
+        display: none !important;
+    }
+
+    .gallery-img{
+        width: 30% !important;
+    }
+    
+
+    .mobile-gallery{
+            display: block !important;
+
+    }
+
+    .mbg-menu{
+        display: none;
+    }
+
+    .mg-content{
+
+    }
+
+    .gallery-title {
+        width: 218px !important;
+        margin-bottom: 50px Im !important;
+        /* margin: 20px; */
+        margin-top: 150px !important;
+    }
+
+}
+
+
+/* 
+.test-gallery{
+    vertical-align: middle;
+    width: 100%;
+    flex: 25%;
+    background-color: red;
+    max-width: 25%;
+} */
+
+
+.test-row a{
+display: -ms-flexbox;
+background-color: red;
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+.mbg-menu{
+    display: block;
+}
+
+.mobile-gallery{
+    display: none;
+}
+
+.pc-gallery{
+    display: block;
+}
+
+
+
+.gallery-page{
+background-color: black;
+}
+
+.gallery-img{
+    width: 50%;
+}
+
+
+
+.gallery-title {
+    font-size: 5rem;
+    width: 349px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+    font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif !important;
+}
+
+.gallery-title-2{
+    font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif !important;
+
+}
+
+.gallery-title-mobile{
+    font-family: Big Caslon,Book Antiqua,Palatino Linotype,Georgia,serif !important;
+    padding: 120px;
+    font-size: 4rem;
+}
+
+
+.gallery-holder{
+
+}
+
+.gallery-footer{
+
+}
+

@@ -1,0 +1,75 @@
+.food-slider{
+    width: 100%;
+    margin-bottom: 50px;
+    /* height: 300px; */
+    text-align: -webkit-center;
+    text-align: center;
+    text-align: -moz-center;
+    border-radius: 10px;
+}
+
+
+.food-text{
+    font-size: small;
+    width: 89%;
+    text-align: left;
+}
+.food-btn-holder{
+    display: flex;
+    width: 89%;
+}
+
+.food-link{
+
+}
+
+.space-below{
+    margin-top: -13%;
+    marg
+    padding-left: 15%;}
+
+
+.food-btn{
+    border-radius: 20px;
+    width: 164px;
+    margin: 20px 0px 10px 0px;
+    padding: 12px;
+    border: 1px;
+    background-color: salmon;
+    border-style: solid;
+    border-color: #d37765;
+    font-size: .8rem;
+    color: black; 
+}
+.food-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.food-section > img{
+    margin-bottom: 20px !important;
+    border-radius: 10px;
+    width: 100% !important;
+}
+
+
+.carousel .slide img {
+    /* width: 89% !important; */
+    vertical-align: top;
+    border: 0;
+}
+
+
+.carousle-food-subtitle{
+    width: 80%;
+    /* text-align: left; */
+    margin-left: 30px;
+}
+
+.space-bewlow{
+    margin: 0%;
+}

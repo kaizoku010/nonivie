@@ -1,0 +1,14 @@
+.kim-page{
+    display: flex;
+    background-image: url("../imgs/res-bg-mobile.jpg");
+    flex-direction: column;
+    height: 100;
+}
+
+.kimIc{
+
+}
+
+.kim-text{
+
+}

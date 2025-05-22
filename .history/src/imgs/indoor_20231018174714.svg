@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.71 30.35">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .69;
+      }
+
+      .cls-2 {
+        fill: #fbd2c7;
+        font-family: MessinaSerif-Regular, 'Messina Serif';
+        font-size: 25.44px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-1">
+      <text class="cls-2" transform="translate(0 21.62)"><tspan x="0" y="0">Outdoor Section</tspan></text>
+    </g>
+  </g>
+</svg>

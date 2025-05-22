@@ -1,0 +1,56 @@
+.park-holder {}
+
+.upper-park-element {
+    display: flex;
+    place-content: center;
+    place-content: space-evenly;
+    padding: 53px;
+    align-items: center;
+}
+
+@media (max-width:650px) {
+    .upper-park-element {
+        margin-bottom: 20rem;
+        display: flex;
+        
+    }
+    .park-heading{
+        text-align: left;
+        font-size: 5.9rem;
+    }
+
+
+}
+
+
+.park-ic{
+width: 400px;
+}
+
+
+.park-heading{
+    text-align: left;
+    width: 50%;
+    font-size: 1.7rem;
+}
+
+
+.lower-park-element{
+    padding: 7px;
+}
+
+.park-sections{
+
+}
+
+
+.park-section{
+    border-bottom: 1px solid gold !important;    border-top-width: 0.5px;
+    border-bottom: 1px solid gold !important;    border-top-width: 0.5px;
+    display: flex;
+
+}
+
+.park-arrow{
+width: 30px;
+}

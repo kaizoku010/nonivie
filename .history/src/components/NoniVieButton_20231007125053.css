@@ -1,0 +1,18 @@
+.nv-btn{
+    /* background-color: rgb(6, 6, 6); */
+    background-color:#d5250a;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: center;
+    width: 150px;
+    border-color: transparent !important;
+    padding: 15px;
+}
+
+.nv-btn:hover{
+
+    color:#d5250a;
+    background-color:white;
+}
+

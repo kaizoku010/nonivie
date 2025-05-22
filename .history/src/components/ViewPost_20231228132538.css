@@ -1,0 +1,46 @@
+@media (max-width: 999px){
+    .single-post-page{
+        background-color: black;
+        height: 100vh;
+    }
+
+    .mobile-menu{
+        display: block !important;
+    }
+
+    .mobile-footer{
+        /* position: absolute; */
+        display: block !important;
+    }
+    
+}
+
+
+.single-post-page{
+    background-color: black;
+}
+
+
+.mobile-menu{
+    display: none;
+}
+
+
+.single-post-data{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.mobile-footer{
+    display: none;
+    /* position: absolute; */
+}
+
+.post-data{
+
+}
+
+.single-post-img{
+    width: 0%;
+}

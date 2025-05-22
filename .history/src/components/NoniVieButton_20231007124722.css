@@ -1,0 +1,21 @@
+.nv-btn{
+    /* background-color: rgb(6, 6, 6); */
+    /* background-color: white; */
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: center;
+    width: 150px;
+    border-color: transparent !important;
+    padding: 15px;
+}
+
+.nv-btn:hover{
+
+    background-color: blue;
+}
+
+
+.contact-us-btn-2{
+    background-color: rgba(244, 42, 11, 0.873);
+    border-color: transparent !important;
+}

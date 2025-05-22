@@ -1,0 +1,90 @@
+.park-holder {}
+
+.upper-park-element {
+    display: flex;
+    place-content: center;
+    place-content: space-evenly;
+    padding: 53px;
+    align-items: center;
+}
+
+@media (max-width:650px) {
+    .upper-park-element {
+        margin-bottom: 20rem;
+        display: flex;
+        
+    }
+    .park-heading{
+        text-align: left;
+        font-size: 5.9rem;
+    }
+
+
+}
+
+
+.park-ic{
+width: 400px;
+}
+
+
+.park-heading{
+    text-align: left;
+    width: 50%;
+    font-size: 1.7rem;
+}
+
+
+.lower-park-element{
+    padding: 7px;
+}
+
+.park-section{
+    display: flex;
+    padding: 30px;
+    place-content: center;
+    border-top: 1px solid rgba(255, 217, 0, 0.329)!important; border-top-width: 0.5px;
+    border-bottom: 1px solid rgba(255, 217, 0, 0.329)!important; border-top-width: 0.5px;
+    background: 
+    linear-gradient(rgba(210, 180, 11, 0.744) 0 0) no-repeat
+     calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
+  transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+
+    justify-content: space-between;
+}
+
+
+.park-sections{
+    /* border-bottom: 1px solid rgba(255, 217, 0, 0.329) !important; */
+    border-top-width: 0.5px;
+    /* border-top: 1px solid rgba(255, 217, 0, 0.329)!important; border-top-width: 0.5px; */
+    padding-left: 53px;
+    margin-left: 53px;
+    margin-right: 53px;
+    padding-right: 53px;
+}
+
+.park-arrow{
+width: 20px;
+transition: transform .75s cubic-bezier(.19,1,.22,1);
+}
+
+.browse-title{
+    text-align: left;
+    margin-left: 53px;
+    padding-left: 53px;
+}
+
+
+.park-arrow:hover{
+color: red;
+}
+
+
+
+  .hover-2:hover {
+    --p: 100%;
+    --t: .3s;
+    color: #fff;
+  }
+  

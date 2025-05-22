@@ -1,0 +1,20 @@
+@media(max-width:999px) {
+.mobile-form-holder{
+    background-color: black;
+    margin-top: -24px;
+    padding-top: 30px;
+}
+
+.form-group {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+input{
+    width: 80% !important;
+}
+.small-input {
+    width: 80% !important;
+}
+}

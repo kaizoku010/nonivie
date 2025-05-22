@@ -1,0 +1,19 @@
+.pc-menu-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.pc-menu-image{
+    width: 407px;
+    height: 450px;
+}
+
+.pc-menu-text{
+    width: 407px;
+    height: 450px;
+}
+
+.meal-image-pc-view{
+    width: 407px;
+    height: 450px;
+}

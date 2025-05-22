@@ -1,0 +1,51 @@
+.reservations-page{
+    background-image: url('../imgs/res-bg.jpg');
+    width: 100%;
+    height: 100vh; /* Sets the height of the body to 100% of the viewport height */
+    overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+.reservations-holder{
+    display: block;
+    background-image: url("../imgs/rs-im.jpg");
+    background-size: cover;
+    height: 625px;
+    width: 100%;
+    /* position: fixed; */
+    /* #0a1315 */
+}
+
+.rs-title-holder{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    place-content: center;
+    height: 500px;
+}
+
+.rs-ic{
+    height: 19px;
+}
+
+.rs-title{
+    margin: 0px 20px 0px 20px;
+    color: #c9ab81;
+    line-height: 28px;
+    letter-spacing: .04em;
+}
+
+.reservations-form{
+    width:100%;
+    height: 100vh;
+}
+
+.icarly-text{
+    color:#c9ab81;
+    margin-top: 150px;
+    font-family: Miniver,sans-serif;
+}
+.no-height{
+    height: 0px !important;
+    margin: 50px;
+}

@@ -1,0 +1,14 @@
+.nonivie-text{
+    width:100%;
+    height: 100px;
+}
+
+.icarly-text{
+    color:#c9ab81;
+    margin-top: 100px;
+    font-family: Miniver,sans-serif;
+}
+.no-height{
+    height: 0px !important;
+    margin: 50px;
+}

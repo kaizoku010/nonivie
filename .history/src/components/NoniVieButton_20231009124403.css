@@ -1,0 +1,30 @@
+.nv-btn{
+    /* background-color: rgb(6, 6, 6); */
+    background-color:#782317;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: center;
+    width: 150px;
+    border-color: transparent !important;
+    padding: 15px;
+}
+
+.nv-btn:hover{
+
+    color:#782317;
+    background-color:white;
+}
+
+
+@media(max-width:999px) {
+    .nv-btn:hover{
+        color:#78221700;
+        background-color:white;
+    }
+
+    .nv-btn{
+        border: 1px solid #C9AB80 !important;
+    }
+    
+}

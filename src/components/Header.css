@@ -1,0 +1,39 @@
+ .header{
+    height: 100px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    background-color: black;
+}
+
+.header-link-holder{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-content: center;
+}
+
+.header-links{
+margin: 20px;
+font-size: 13px !important;
+color: white;
+text-decoration: none;
+}
+
+.header-links:hover{
+    cursor: pointer;
+    color: bisque;
+}
+
+@media(max-width:999px) {
+    .header{
+        display: none;
+    }
+}
+ 
+

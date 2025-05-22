@@ -1,0 +1,6 @@
+.menu_item_holder{
+    background-color: blue;
+        height: 382px;
+        width: 100%;
+        display: flex;
+}
